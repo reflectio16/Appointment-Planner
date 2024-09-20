@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# Appointment Planner App
+
+An appointment scheduling app built with React. This application allows users to schedule appointments by providing a title, date, time, and selecting a contact from a predefined list. The appointment data is saved locally, ensuring persistence even after refreshing the page.
+
+## Features
+
+- **Create Contact List**: Add contacts by specifying a name, phone and email.
+- **Create Appointments**: Add appointments by specifying a title, date, time, and contact.
+- **Contact Picker**: Users can select a contact from a predefined list when scheduling an appointment.
+
+## Technologies Used
+- React: Front-end library for building the user interface.
+- JavaScript (ES6+): Main programming language for the app.
+- HTML5 & CSS3: Structure and styling of the app.
+
+
+## Demo
+
+You can see a live demo of the app here: https://planner-appointment.netlify.app/contacts
+
+
+# Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/appointment-planner.git
+  
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
