@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav > a {
+  font-style: bold;
+  font-weight: bold;
+  font-size: 22px;
+  color: #14126a;
+  margin-right: 30.5px;
+  margin-left: 20px;
+  text-decoration-line: none;
+
+}
+
+nav > a.active {
+  text-decoration-line: underline;
+  font-size: 26px;
+}
+
+nav > a:hover {
+  color: #2054bc;
+  
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 45px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .09);
+ 
+  
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #14126a;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+section {
+
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, .09);
+}
+
+
+label input, 
+label select {  /* Adjusting both input fields and select (for the ContactPicker) */
+  margin-top: 5px; 
+  
+}
+
+input[type="submit"] {
+  background: #03a8d8;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input,
+select {
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding: 7px 9.5px 9px 9.5px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #14126a;
+  color: #ffffff;
+  width: 30%;
+  padding-block: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+
+button:hover {
+  cursor: pointer;
+  background-color: #2054bc;   
+}
+
+
+ol {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  
+}
+
+
+.form-container {
+  padding: 10px;
+}
+
+
+.contact-list {
+  margin-inline: auto;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  width: 80%;
+
+}
+
+
+.appoint-list {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #979797;
+
+}
+
+
+#contact-title, #appoint-title {
+  padding: 10px;
+}
+
+
+.tile {
+  padding-right: 10px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-left: 0;
+  
+}
+
+
+.tile-list {
+  border-bottom: 1px solid #979797;
+  font-weight: bold;
+  color:#2054bc;
+  
+}
+
+
+/* .tile-title {
+  font-weight: bold;
+} */
+
+
+.tile-container {
+  margin-bottom: 20px;
+
+}
