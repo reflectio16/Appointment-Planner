@@ -16,7 +16,7 @@ An appointment scheduling app built with React. This application allows users to
 
 ## Demo
 
-You can see a live demo of the app here: https://planner-appointment.netlify.app/contacts
+You can see a live demo of the app here: https://planner-appointment.netlify.app
 
 
 # Installation
